@@ -1,14 +1,14 @@
-package ex_14_Strings;
+package ex_15_StringBuilder_StringBuffer;
 
-public class StringBuilder_Functions {
+public class Stringbuffer_Functions {
     public static void main(String[] args) {
-        StringBuilder sb = new StringBuilder("Supriya");
-        sb.append(" KSP123");
+        StringBuffer sb = new StringBuffer("Hello");
+        sb.append(" supriya");
         System.out.println(sb);
-        System.out.println(sb.insert(0, "Hello "));
+        System.out.println(sb.insert(0, "Hi "));
         System.out.println(sb.delete(0, 3));
         System.out.println(sb.reverse());
-        System.out.println(sb.replace( 0,  1, "Hi "));
+        System.out.println(sb.replace( 0,  2, "Hi "));
         System.out.println(sb.capacity());
         System.out.println(sb.length());
         System.out.println(sb.charAt(2));
